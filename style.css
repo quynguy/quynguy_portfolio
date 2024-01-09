@@ -354,6 +354,32 @@ footer .nav-links {
 
 }
 
+
+@media (max-width: 1450px) {
+    
+    .nav-links {
+        width: 100%;
+        gap: 0;
+        justify-content: space-between;
+    }
+
+    .about-container {
+        gap: 30px;
+    }
+
+    .basic-edu {
+        gap: 20px;
+    }
+    .experience-container {
+        gap: 30px;
+    }
+
+    .project-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
 @media (max-width: 1200px) {
     
     .nav-links {
